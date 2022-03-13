@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/svMain"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvJudul"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:text="Album Foto Sepatu"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/ivGambar1"
+            android:layout_width="353dp"
+            android:layout_height="253dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/border"
+            android:padding="1dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/dunklowpandas" />
+
+        <TextView
+            android:id="@+id/tvGambar1"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:paddingBottom="30dp"
+            android:gravity="center"
+            android:text="Nike Dunk Low Panda"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/ivGambar2"
+            android:layout_width="353dp"
+            android:layout_height="253dp"
+            android:background="@drawable/border"
+            android:scaleType="fitStart"
+            android:src="@drawable/yeezyslides" />
+
+        <TextView
+            android:id="@+id/tvGambar2"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:paddingBottom="30dp"
+            android:gravity="center"
+            android:text="Adidas Yeezy Slides"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/ivGambar3"
+            android:layout_width="355dp"
+            android:layout_height="255dp"
+            android:background="@drawable/border"
+            android:scaleType="fitStart"
+            android:src="@drawable/mocha" />
+
+        <TextView
+            android:id="@+id/tvGambar3"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:paddingBottom="30dp"
+            android:gravity="center"
+            android:text="Jordan 1 Mocha"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/ivGambar4"
+            android:layout_width="355dp"
+            android:layout_height="254dp"
+            android:background="@drawable/border"
+            android:scaleType="fitStart"
+            android:src="@drawable/ochre" />
+
+        <TextView
+            android:id="@+id/tvGambar4"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:text="Yeezy Foam Runner"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+</ScrollView>
